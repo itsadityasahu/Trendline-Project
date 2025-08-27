@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'work sans';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.circle{
+    height: 22px;
+    width: 22px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#nav-part2 h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#nav-part2 h4 span{
+    color: rgb(71, 71, 71);
+    margin-left: 25px;
+}
+
+#nav2{
+    height: 70px;
+    width: 100%;
+    /* background-color: RED; */
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    gap: 40px;
+}
+#nav2 h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#content{
+    height: calc(100% - 150px);
+    width: 100%;
+    /* background-color: aquamarine; */
+
+}
+
+#text-content{
+    height: 35%;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    overflow-x: auto;
+
+}
+#text-content::-webkit-scrollbar{
+    background-color: transparent;
+    height: 6px;
+}
+#text-content::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+.elem{
+    flex-shrink: 0;
+    height: 100%;
+    width: 65%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.elem h1{
+    font-size: 130px;
+    font-weight: 200;
+}
+
+#look1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#look1 h4{
+    position: absolute;
+    font-size: 13px;
+    font-weight: 500;
+    top: 15%;
+    left: 6%;
+}
+#look1 span{
+    margin: 18px;
+    font-weight: 300;
+}
+#look2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#look2 h4{
+    position: absolute;
+    font-size: 13px;
+    font-weight: 500;
+    top: 15%;
+    left: 18%;
+}
+#look2 span{
+    margin: 24px;
+    font-weight: 300;
+}
+#look3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#look3 h4{
+    position: absolute;
+    font-size: 13px;
+    font-weight: 500;
+    top: 15%;
+    left: 23%;
+}
+#look3 span{
+    margin: 25px;
+    font-weight: 300;
+}
+#look4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#look4 h4{
+    position: absolute;
+    font-size: 13px;
+    font-weight: 500;
+    top: 15%;
+    left: 13%;
+}
+#look4 span{
+    margin: 25px;
+    font-weight: 300;
+}
+#look5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#look5 h4{
+    position: absolute;
+    font-size: 13px;
+    font-weight: 500;
+    top: 15%;
+    left: 28%;
+}
+#look5 span{
+    margin: 18px;
+    font-weight: 300;
+}
+
+
+#image-content{
+    height: 65%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    overflow-x: auto;
+}
+
+#image-content::-webkit-scrollbar{
+    display: none;
+}
+
+#image-content img{
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
